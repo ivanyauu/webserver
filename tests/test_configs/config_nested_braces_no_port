@@ -1,0 +1,5 @@
+server {
+    nested_config {
+        test 80;
+    }
+}

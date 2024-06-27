@@ -1,0 +1,546 @@
+[2024-06-04 23:45:46.168890] [0x00007873c62e9740] [info] Starting server on port 80
+[2024-06-04 23:45:47.169246] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.169345] [0x00007873c4ae5640] [debug] Request packet: POST /api/Shoes HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 49
+Content-Type: application/json
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.169507] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:47.169559] [0x00007873c4ae5640] [debug] Received handler crud_handler
+[2024-06-04 23:45:47.169712] [0x00007873c4ae5640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities
+[2024-06-04 23:45:47.169736] [0x00007873c4ae5640] [debug] Uri: Shoes
+[2024-06-04 23:45:47.169755] [0x00007873c4ae5640] [debug] Id: e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.169777] [0x00007873c4ae5640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities/Shoes/e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.169934] [0x00007873c4ae5640] [debug] JSON data written successfully: {"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.170014] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:201 Handler: crud_handler Path: /api/Shoes 
+[2024-06-04 23:45:47.170199] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 46
+
+{"id": "e767d854-26ee-4852-b412-c0654bb47cad"}
+[2024-06-04 23:45:47.171894] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.171978] [0x00007873c5ae7640] [debug] Request packet: GET /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+ication/json
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.172033] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:47.172051] [0x00007873c5ae7640] [debug] Received handler crud_handler
+[2024-06-04 23:45:47.172107] [0x00007873c5ae7640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities
+[2024-06-04 23:45:47.172123] [0x00007873c5ae7640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.172133] [0x00007873c5ae7640] [debug] ID: e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.172144] [0x00007873c5ae7640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities/Shoes/e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.172198] [0x00007873c5ae7640] [debug] JSON data retrieved successfully: {"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.172240] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: crud_handler Path: /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad 
+[2024-06-04 23:45:47.172349] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 49
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.173621] [0x00007873c62e8640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.173696] [0x00007873c62e8640] [debug] Request packet: DELETE /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 0
+
+d": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.173741] [0x00007873c62e8640] [debug] Processing the Request
+[2024-06-04 23:45:47.173763] [0x00007873c62e8640] [debug] Received handler crud_handler
+[2024-06-04 23:45:47.173800] [0x00007873c62e8640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities
+[2024-06-04 23:45:47.173813] [0x00007873c62e8640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.173823] [0x00007873c62e8640] [debug] ID: e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.173853] [0x00007873c62e8640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities/Shoes/e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.173950] [0x00007873c62e8640] [debug] Successfully deleted file
+[2024-06-04 23:45:47.173979] [0x00007873c62e8640] [trace] [ResponseMetrics] response_code:204 Handler: crud_handler Path: /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad 
+[2024-06-04 23:45:47.174102] [0x00007873c62e8640] [debug] Response: HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+
+[2024-06-04 23:45:47.175329] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.175372] [0x00007873c4ae5640] [debug] Request packet: GET /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+Content-Length: 0
+
+d": "Nike", "model": "Air Max", "size": 10}
+[2024-06-04 23:45:47.175403] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:47.175418] [0x00007873c4ae5640] [debug] Received handler crud_handler
+[2024-06-04 23:45:47.175448] [0x00007873c4ae5640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities
+[2024-06-04 23:45:47.175460] [0x00007873c4ae5640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.175470] [0x00007873c4ae5640] [debug] ID: e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.175482] [0x00007873c4ae5640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities/Shoes/e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.175506] [0x00007873c4ae5640] [error] ERROR: Failed to open file at /usr/src/projects/new-grad-ten-years-experience/build_coverage/entities/Shoes/e767d854-26ee-4852-b412-c0654bb47cad
+[2024-06-04 23:45:47.175529] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:404 Handler: crud_handler Path: /api/Shoes/e767d854-26ee-4852-b412-c0654bb47cad 
+[2024-06-04 23:45:47.175639] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-06-04 23:45:47.180242] [0x00007873c52e6640] [error] ERROR: Reading request
+[2024-06-04 23:45:47.181529] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.181578] [0x00007873c4ae5640] [debug] Request packet: GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:47.181615] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:47.181634] [0x00007873c4ae5640] [debug] Received handler echo_handler
+[2024-06-04 23:45:47.181764] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:200 Handler: echo_handler Path: /echo 
+[2024-06-04 23:45:47.181910] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 144
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:47.183509] [0x00007873c62e8640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.183561] [0x00007873c62e8640] [debug] Request packet: GET /health HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:47.183597] [0x00007873c62e8640] [debug] Processing the Request
+[2024-06-04 23:45:47.183612] [0x00007873c62e8640] [debug] Received handler health_handler
+[2024-06-04 23:45:47.183680] [0x00007873c62e8640] [trace] [ResponseMetrics] response_code:200 Handler: health_handler Path: /health 
+[2024-06-04 23:45:47.183781] [0x00007873c62e8640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 2
+
+OK
+[2024-06-04 23:45:47.185391] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.185446] [0x00007873c5ae7640] [debug] Request packet: GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 2012
+Content-Type: application/json
+
+{"text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[2024-06-04 23:45:47.185519] [0x00007873c5ae7640] [debug] Request not complete, continue reading
+[2024-06-04 23:45:47.185549] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.185562] [0x00007873c5ae7640] [debug] Request packet: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[2024-06-04 23:45:47.185595] [0x00007873c5ae7640] [debug] Request not complete, continue reading
+[2024-06-04 23:45:47.185632] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.185649] [0x00007873c5ae7640] [debug] Request packet: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[2024-06-04 23:45:47.185673] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:47.185691] [0x00007873c5ae7640] [debug] Received handler echo_handler
+[2024-06-04 23:45:47.185814] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: echo_handler Path: /echo 
+[2024-06-04 23:45:47.185963] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 2210
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 2012
+Content-Type: application/json
+
+{"text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+[2024-06-04 23:45:47.187600] [0x00007873c62e8640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.187660] [0x00007873c62e8640] [debug] Request packet: POST /markdown/Shoes HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: text/markdown
+Content-Length: 50
+
+Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.187733] [0x00007873c62e8640] [debug] Processing the Request
+[2024-06-04 23:45:47.187768] [0x00007873c62e8640] [debug] Received handler markdown_handler
+[2024-06-04 23:45:47.187916] [0x00007873c62e8640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown
+[2024-06-04 23:45:47.187940] [0x00007873c62e8640] [debug] Uri: Shoes
+[2024-06-04 23:45:47.187955] [0x00007873c62e8640] [debug] Id: e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.187970] [0x00007873c62e8640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.188092] [0x00007873c62e8640] [debug] Markdown file written successfully: Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.188135] [0x00007873c62e8640] [trace] [ResponseMetrics] response_code:201 Handler: markdown_handler Path: /markdown/Shoes 
+[2024-06-04 23:45:47.188281] [0x00007873c62e8640] [debug] Response: HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 46
+
+{"id": "e095a758-4173-4681-99f0-663f1a78ad1a"}
+[2024-06-04 23:45:47.189434] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.189482] [0x00007873c5ae7640] [debug] Request packet: GET /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a?raw=true HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+
+Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.189525] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:47.189543] [0x00007873c5ae7640] [debug] Received handler markdown_handler
+[2024-06-04 23:45:47.189577] [0x00007873c5ae7640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown
+[2024-06-04 23:45:47.189589] [0x00007873c5ae7640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.189599] [0x00007873c5ae7640] [debug] ID: e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.189610] [0x00007873c5ae7640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.189658] [0x00007873c5ae7640] [debug] Markdown file retrieved successfully: Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.189683] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: markdown_handler Path: /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a?raw=true 
+[2024-06-04 23:45:47.189774] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/markdown
+Content-Length: 50
+
+Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.191427] [0x00007873c52e6640] [error] ERROR: Reading request
+[2024-06-04 23:45:47.191518] [0x00007873c62e8640] [error] ERROR: Reading request
+[2024-06-04 23:45:47.191765] [0x00007873c52e6640] [error] ERROR: Reading request
+[2024-06-04 23:45:47.191993] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.192046] [0x00007873c4ae5640] [debug] Request packet: GET /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+alive
+
+
+
+Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.192114] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:47.192138] [0x00007873c4ae5640] [debug] Received handler markdown_handler
+[2024-06-04 23:45:47.192185] [0x00007873c4ae5640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown
+[2024-06-04 23:45:47.192203] [0x00007873c4ae5640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.192217] [0x00007873c4ae5640] [debug] ID: e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.192247] [0x00007873c4ae5640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.192317] [0x00007873c4ae5640] [debug] Markdown file retrieved successfully: Here is some **bold** text and some *italic* text.
+[2024-06-04 23:45:47.192379] [0x00007873c4ae5640] [debug] Markdown converted to HTML: <p>Here is some <strong>bold</strong> text and some <em>italic</em> text.</p>
+[2024-06-04 23:45:47.192413] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:200 Handler: markdown_handler Path: /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a 
+[2024-06-04 23:45:47.192529] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 78
+
+<p>Here is some <strong>bold</strong> text and some <em>italic</em> text.</p>
+[2024-06-04 23:45:47.193648] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.193697] [0x00007873c5ae7640] [debug] Request packet: DELETE /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:47.193733] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:47.193749] [0x00007873c5ae7640] [debug] Received handler markdown_handler
+[2024-06-04 23:45:47.193786] [0x00007873c5ae7640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown
+[2024-06-04 23:45:47.193798] [0x00007873c5ae7640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.193808] [0x00007873c5ae7640] [debug] ID: e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.193849] [0x00007873c5ae7640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.193924] [0x00007873c5ae7640] [debug] Successfully deleted file
+[2024-06-04 23:45:47.193954] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:204 Handler: markdown_handler Path: /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a 
+[2024-06-04 23:45:47.194043] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+
+[2024-06-04 23:45:47.195125] [0x00007873c52e6640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.195169] [0x00007873c52e6640] [debug] Request packet: GET /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:47.195241] [0x00007873c52e6640] [debug] Processing the Request
+[2024-06-04 23:45:47.195265] [0x00007873c52e6640] [debug] Received handler markdown_handler
+[2024-06-04 23:45:47.195308] [0x00007873c52e6640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown
+[2024-06-04 23:45:47.195350] [0x00007873c52e6640] [debug] Entity: Shoes
+[2024-06-04 23:45:47.195364] [0x00007873c52e6640] [debug] ID: e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.195384] [0x00007873c52e6640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.195414] [0x00007873c52e6640] [error] ERROR: Failed to open file at /usr/src/projects/new-grad-ten-years-experience/build_coverage/markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a
+[2024-06-04 23:45:47.195444] [0x00007873c52e6640] [trace] [ResponseMetrics] response_code:404 Handler: markdown_handler Path: /markdown/Shoes/e095a758-4173-4681-99f0-663f1a78ad1a 
+[2024-06-04 23:45:47.195553] [0x00007873c52e6640] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-06-04 23:45:47.196447] [0x00007873c4ae5640] [error] ERROR: Reading request
+[2024-06-04 23:45:47.197759] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:47.197818] [0x00007873c5ae7640] [debug] Request packet: GET /sleep HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:47.197888] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:47.197917] [0x00007873c5ae7640] [debug] Received handler sleep_handler
+[2024-06-04 23:45:48.198160] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: sleep_handler Path: /sleep 
+[2024-06-04 23:45:48.198479] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 0
+
+[2024-06-04 23:45:48.200747] [0x00007873c52e6640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.200880] [0x00007873c52e6640] [debug] Request packet: GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+[2024-06-04 23:45:48.200937] [0x00007873c52e6640] [debug] Processing the Request
+[2024-06-04 23:45:48.200955] [0x00007873c52e6640] [debug] Received handler echo_handler
+[2024-06-04 23:45:48.201065] [0x00007873c52e6640] [trace] [ResponseMetrics] response_code:200 Handler: echo_handler Path: /echo 
+[2024-06-04 23:45:48.201175] [0x00007873c52e6640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 144
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:48.203484] [0x00007873c52e6640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.203576] [0x00007873c52e6640] [debug] Request packet: GET / HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+ve
+
+[2024-06-04 23:45:48.203641] [0x00007873c52e6640] [debug] Processing the Request
+[2024-06-04 23:45:48.203672] [0x00007873c52e6640] [debug] Received handler notfound_handler
+[2024-06-04 23:45:48.203766] [0x00007873c52e6640] [trace] [ResponseMetrics] response_code:404 Handler: notfound_handler Path: / 
+[2024-06-04 23:45:48.203957] [0x00007873c52e6640] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-06-04 23:45:48.206159] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.206220] [0x00007873c5ae7640] [debug] Request packet: GET /static/Test0.html HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-06-04 23:45:48.206267] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:48.206285] [0x00007873c5ae7640] [debug] Received handler static_handler
+[2024-06-04 23:45:48.206411] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: static_handler Path: /static/Test0.html 
+[2024-06-04 23:45:48.206548] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 119
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST</title>
+    </head>
+    <body>
+        STUFF
+    </body>
+</html>
+[2024-06-04 23:45:48.208512] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.208606] [0x00007873c4ae5640] [debug] Request packet: GET /static/Test5.md HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+ept: */*
+Connection: keep-alive
+
+
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:48.208655] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:48.208672] [0x00007873c4ae5640] [debug] Received handler static_handler
+[2024-06-04 23:45:48.208950] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:200 Handler: static_handler Path: /static/Test5.md 
+[2024-06-04 23:45:48.209091] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 520
+
+<h1>TEST</h1>
+<p>HERE IS <em>SOME</em> STUFF AND <strong>MORE</strong> STUFF AND <em><strong>EVEN MORE</strong></em> STUFF</p>
+<h2>LISTS</h2>
+<h3>ORDERED LIST</h3>
+<ol>
+<li>THIS</li>
+<li>IS</li>
+<li>A</li>
+<li>LIST</li>
+</ol>
+<h3>UNORDERED LIST</h3>
+<ul>
+<li>THIS</li>
+<li>IS</li>
+<li>AN</li>
+<li>UNORDERED</li>
+<li>LIST</li>
+</ul>
+<h2>LINK</h2>
+<p>THIS IS A VERY <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">IMPORTANT LINK</a></p>
+<h2>CODE</h2>
+<pre><code># THIS IS A BLOCK OF CODE
+sudo rm -rf /
+</code></pre>
+[2024-06-04 23:45:48.211257] [0x00007873c5ae7640] [error] ERROR: Reading request
+[2024-06-04 23:45:48.211538] [0x00007873c52e6640] [error] ERROR: Reading request
+[2024-06-04 23:45:48.211551] [0x00007873c62e8640] [error] ERROR: Reading request
+[2024-06-04 23:45:48.211946] [0x00007873c4ae5640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.212005] [0x00007873c4ae5640] [debug] Request packet: GET /static/Test5.md?raw=false HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+Connection: keep-alive
+
+
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:48.212069] [0x00007873c4ae5640] [debug] Processing the Request
+[2024-06-04 23:45:48.212119] [0x00007873c4ae5640] [debug] Received handler static_handler
+[2024-06-04 23:45:48.212407] [0x00007873c4ae5640] [trace] [ResponseMetrics] response_code:200 Handler: static_handler Path: /static/Test5.md?raw=false 
+[2024-06-04 23:45:48.212531] [0x00007873c4ae5640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 520
+
+<h1>TEST</h1>
+<p>HERE IS <em>SOME</em> STUFF AND <strong>MORE</strong> STUFF AND <em><strong>EVEN MORE</strong></em> STUFF</p>
+<h2>LISTS</h2>
+<h3>ORDERED LIST</h3>
+<ol>
+<li>THIS</li>
+<li>IS</li>
+<li>A</li>
+<li>LIST</li>
+</ol>
+<h3>UNORDERED LIST</h3>
+<ul>
+<li>THIS</li>
+<li>IS</li>
+<li>AN</li>
+<li>UNORDERED</li>
+<li>LIST</li>
+</ul>
+<h2>LINK</h2>
+<p>THIS IS A VERY <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">IMPORTANT LINK</a></p>
+<h2>CODE</h2>
+<pre><code># THIS IS A BLOCK OF CODE
+sudo rm -rf /
+</code></pre>
+[2024-06-04 23:45:48.213900] [0x00007873c5ae7640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.213942] [0x00007873c5ae7640] [debug] Request packet: GET /static/Test5.md?raw=true HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+Connection: keep-alive
+
+
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:48.213975] [0x00007873c5ae7640] [debug] Processing the Request
+[2024-06-04 23:45:48.213991] [0x00007873c5ae7640] [debug] Received handler static_handler
+[2024-06-04 23:45:48.214101] [0x00007873c5ae7640] [trace] [ResponseMetrics] response_code:200 Handler: static_handler Path: /static/Test5.md?raw=true 
+[2024-06-04 23:45:48.214230] [0x00007873c5ae7640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 363
+
+# TEST
+
+HERE IS *SOME* STUFF AND **MORE** STUFF AND ***EVEN MORE*** STUFF
+
+## LISTS
+
+### ORDERED LIST
+
+1. THIS
+2. IS
+3. A
+4. LIST
+
+### UNORDERED LIST
+
+- THIS
+- IS
+- AN
+- UNORDERED
+- LIST
+
+## LINK
+
+THIS IS A VERY [IMPORTANT LINK](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## CODE
+
+```
+# THIS IS A BLOCK OF CODE
+sudo rm -rf /
+```
+[2024-06-04 23:45:48.215469] [0x00007873c62e8640] [debug] Reading the Handler of Request
+[2024-06-04 23:45:48.215527] [0x00007873c62e8640] [debug] Request packet: GET /static/Test5.md?badParameter HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+nection: keep-alive
+
+
+Content-Length: 0
+
+ome **bold** text and some *italic* text.
+[2024-06-04 23:45:48.215571] [0x00007873c62e8640] [debug] Processing the Request
+[2024-06-04 23:45:48.215588] [0x00007873c62e8640] [debug] Received handler static_handler
+[2024-06-04 23:45:48.215696] [0x00007873c62e8640] [trace] [ResponseMetrics] response_code:400 Handler: static_handler Path: /static/Test5.md?badParameter 
+[2024-06-04 23:45:48.215812] [0x00007873c62e8640] [debug] Response: HTTP/1.1 400 Bad Request
+Content-Type: text/plain
+Content-Length: 11
+
+Bad request
+[2024-06-04 23:45:48.216464] [0x00007873c4ae5640] [error] ERROR: Reading request
+[2024-06-04 23:45:48.216723] [0x00007873c5ae7640] [warning] Shutting down server

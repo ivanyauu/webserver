@@ -1,0 +1,45 @@
+[2024-05-15 02:46:41.273062] [0x00007c12073c6740] [info] Starting server on port 80
+[2024-05-15 02:46:42.273608] [0x00007c12073c6740] [debug] Reading the Handler of Request
+[2024-05-15 02:46:42.273704] [0x00007c12073c6740] [debug] Request: GET /echo HTTP/1.1
+[2024-05-15 02:46:42.273720] [0x00007c12073c6740] [debug] Processing the Request
+[2024-05-15 02:46:42.273843] [0x00007c12073c6740] [debug] Received handler echo_handler
+[2024-05-15 02:46:42.274204] [0x00007c12073c6740] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 144
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-15 02:46:42.276407] [0x00007c12073c6740] [debug] Reading the Handler of Request
+[2024-05-15 02:46:42.276476] [0x00007c12073c6740] [debug] Request: GET / HTTP/1.1
+[2024-05-15 02:46:42.276490] [0x00007c12073c6740] [debug] Processing the Request
+[2024-05-15 02:46:42.276565] [0x00007c12073c6740] [debug] Received handler notfound_handler
+[2024-05-15 02:46:42.276717] [0x00007c12073c6740] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-05-15 02:46:42.282008] [0x00007c12073c6740] [error] ERROR: Reading request
+[2024-05-15 02:46:42.282323] [0x00007c12073c6740] [error] ERROR: Reading request
+[2024-05-15 02:46:42.283251] [0x00007c12073c6740] [debug] Reading the Handler of Request
+[2024-05-15 02:46:42.283316] [0x00007c12073c6740] [debug] Request: GET /static/Test0.html HTTP/1.1
+[2024-05-15 02:46:42.283330] [0x00007c12073c6740] [debug] Processing the Request
+[2024-05-15 02:46:42.283374] [0x00007c12073c6740] [debug] Received handler static_handler
+[2024-05-15 02:46:42.283601] [0x00007c12073c6740] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 119
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST</title>
+    </head>
+    <body>
+        STUFF
+    </body>
+</html>
+[2024-05-15 02:46:42.284334] [0x00007c12073c6740] [warning] Shutting down server

@@ -1,0 +1,6 @@
+listen 80;
+location /static static_handler {
+  root ./files;
+}
+location /echo echo_handler {
+}

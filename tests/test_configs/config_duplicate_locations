@@ -1,0 +1,6 @@
+port 80;
+location /echo static_handler {
+  root /usr/src/projects/new-grad-ten-years-experience/static;
+}
+location /echo echo_handler {
+}

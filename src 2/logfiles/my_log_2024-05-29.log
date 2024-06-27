@@ -1,0 +1,218 @@
+[2024-05-29 06:10:37.429375] [0x00007f9ae90cb740] [info] Starting server on port 80
+[2024-05-29 06:10:38.407617] [0x00007f9ae78c7640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.407718] [0x00007f9ae78c7640] [debug] Entire Request: POST /api/Shoes HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 49
+Content-Type: application/json
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.407739] [0x00007f9ae78c7640] [debug] Processing the Request
+[2024-05-29 06:10:38.407873] [0x00007f9ae78c7640] [debug] Received handler crud_handler
+[2024-05-29 06:10:38.407947] [0x00007f9ae78c7640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build/entities
+[2024-05-29 06:10:38.407963] [0x00007f9ae78c7640] [debug] Uri: Shoes
+[2024-05-29 06:10:38.408197] [0x00007f9ae78c7640] [debug] Id: 23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.408233] [0x00007f9ae78c7640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build/entities/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.408357] [0x00007f9ae78c7640] [debug] JSON data written successfully: {"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.408399] [0x00007f9ae78c7640] [trace] [ResponseMetrics] response_code:201 Handler: crud_handler Path: /api/Shoes 
+[2024-05-29 06:10:38.408509] [0x00007f9ae78c7640] [debug] Response: HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 46
+
+{"id": "23e9ab87-3df5-4a60-aa44-5424cb0133dc"}
+[2024-05-29 06:10:38.410315] [0x00007f9ae88c9640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.410419] [0x00007f9ae88c9640] [debug] Entire Request: GET /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+ication/json
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.410438] [0x00007f9ae88c9640] [debug] Processing the Request
+[2024-05-29 06:10:38.410487] [0x00007f9ae88c9640] [debug] Received handler crud_handler
+[2024-05-29 06:10:38.410544] [0x00007f9ae88c9640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build/entities
+[2024-05-29 06:10:38.410561] [0x00007f9ae88c9640] [debug] Entity: Shoes
+[2024-05-29 06:10:38.410571] [0x00007f9ae88c9640] [debug] ID: 23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.410582] [0x00007f9ae88c9640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build/entities/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.410653] [0x00007f9ae88c9640] [debug] JSON data retrieved successfully: {"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.410681] [0x00007f9ae88c9640] [trace] [ResponseMetrics] response_code:200 Handler: crud_handler Path: /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc 
+[2024-05-29 06:10:38.410802] [0x00007f9ae88c9640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 49
+
+{"brand": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.412360] [0x00007f9ae90ca640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.412468] [0x00007f9ae90ca640] [debug] Entire Request: DELETE /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 0
+
+d": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.412484] [0x00007f9ae90ca640] [debug] Processing the Request
+[2024-05-29 06:10:38.412529] [0x00007f9ae90ca640] [debug] Received handler crud_handler
+[2024-05-29 06:10:38.412576] [0x00007f9ae90ca640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build/entities
+[2024-05-29 06:10:38.412589] [0x00007f9ae90ca640] [debug] Entity: Shoes
+[2024-05-29 06:10:38.412600] [0x00007f9ae90ca640] [debug] ID: 23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.412611] [0x00007f9ae90ca640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build/entities/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.412705] [0x00007f9ae90ca640] [debug] Successfully deleted file
+[2024-05-29 06:10:38.412739] [0x00007f9ae90ca640] [trace] [ResponseMetrics] response_code:204 Handler: crud_handler Path: /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc 
+[2024-05-29 06:10:38.412882] [0x00007f9ae90ca640] [debug] Response: HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+
+[2024-05-29 06:10:38.414311] [0x00007f9ae80c8640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.414401] [0x00007f9ae80c8640] [debug] Entire Request: GET /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+Content-Length: 0
+
+d": "Nike", "model": "Air Max", "size": 10}
+[2024-05-29 06:10:38.414992] [0x00007f9ae80c8640] [debug] Processing the Request
+[2024-05-29 06:10:38.415053] [0x00007f9ae80c8640] [debug] Received handler crud_handler
+[2024-05-29 06:10:38.415114] [0x00007f9ae80c8640] [debug] Root: /usr/src/projects/new-grad-ten-years-experience/build/entities
+[2024-05-29 06:10:38.415140] [0x00007f9ae80c8640] [debug] Entity: Shoes
+[2024-05-29 06:10:38.415150] [0x00007f9ae80c8640] [debug] ID: 23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.415161] [0x00007f9ae80c8640] [debug] Filepath: /usr/src/projects/new-grad-ten-years-experience/build/entities/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.415193] [0x00007f9ae80c8640] [error] ERROR: Failed to open file at /usr/src/projects/new-grad-ten-years-experience/build/entities/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc
+[2024-05-29 06:10:38.415221] [0x00007f9ae80c8640] [trace] [ResponseMetrics] response_code:404 Handler: crud_handler Path: /api/Shoes/23e9ab87-3df5-4a60-aa44-5424cb0133dc 
+[2024-05-29 06:10:38.415353] [0x00007f9ae80c8640] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-05-29 06:10:38.421709] [0x00007f9ae78c7640] [error] ERROR: Reading request
+[2024-05-29 06:10:38.423354] [0x00007f9ae90ca640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.423424] [0x00007f9ae90ca640] [debug] Entire Request: GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:38.423438] [0x00007f9ae90ca640] [debug] Processing the Request
+[2024-05-29 06:10:38.423482] [0x00007f9ae90ca640] [debug] Received handler echo_handler
+[2024-05-29 06:10:38.423571] [0x00007f9ae90ca640] [trace] [ResponseMetrics] response_code:200 Handler: echo_handler Path: /echo 
+[2024-05-29 06:10:38.423665] [0x00007f9ae90ca640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 144
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:38.426164] [0x00007f9ae90ca640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.426283] [0x00007f9ae90ca640] [debug] Entire Request: GET /health HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:38.426312] [0x00007f9ae90ca640] [debug] Processing the Request
+[2024-05-29 06:10:38.426360] [0x00007f9ae90ca640] [debug] Received handler health_handler
+[2024-05-29 06:10:38.426399] [0x00007f9ae90ca640] [trace] [ResponseMetrics] response_code:200 Handler: health_handler Path: /health 
+[2024-05-29 06:10:38.426524] [0x00007f9ae90ca640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 2
+
+OK
+[2024-05-29 06:10:38.428689] [0x00007f9ae88c9640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:38.428763] [0x00007f9ae88c9640] [debug] Entire Request: GET /sleep HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:38.428813] [0x00007f9ae88c9640] [debug] Processing the Request
+[2024-05-29 06:10:38.428900] [0x00007f9ae88c9640] [debug] Received handler sleep_handler
+[2024-05-29 06:10:39.429220] [0x00007f9ae88c9640] [trace] [ResponseMetrics] response_code:200 Handler: sleep_handler Path: /sleep 
+[2024-05-29 06:10:39.429558] [0x00007f9ae88c9640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 0
+
+[2024-05-29 06:10:39.431655] [0x00007f9ae80c8640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:39.431736] [0x00007f9ae80c8640] [debug] Entire Request: GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+[2024-05-29 06:10:39.431750] [0x00007f9ae80c8640] [debug] Processing the Request
+[2024-05-29 06:10:39.431792] [0x00007f9ae80c8640] [debug] Received handler echo_handler
+[2024-05-29 06:10:39.431893] [0x00007f9ae80c8640] [trace] [ResponseMetrics] response_code:200 Handler: echo_handler Path: /echo 
+[2024-05-29 06:10:39.431988] [0x00007f9ae80c8640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 144
+
+GET /echo HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:39.434374] [0x00007f9ae90ca640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:39.434437] [0x00007f9ae90ca640] [debug] Entire Request: GET / HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:39.434452] [0x00007f9ae90ca640] [debug] Processing the Request
+[2024-05-29 06:10:39.434489] [0x00007f9ae90ca640] [debug] Received handler notfound_handler
+[2024-05-29 06:10:39.434537] [0x00007f9ae90ca640] [trace] [ResponseMetrics] response_code:404 Handler: notfound_handler Path: / 
+[2024-05-29 06:10:39.434636] [0x00007f9ae90ca640] [debug] Response: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 85
+
+<html><head><title>Not Found</title></head><body><h1>404 Not Found</h1></body></html>
+[2024-05-29 06:10:39.435938] [0x00007f9ae88c9640] [error] ERROR: Reading request
+[2024-05-29 06:10:39.436053] [0x00007f9ae80c8640] [error] ERROR: Reading request
+[2024-05-29 06:10:39.435938] [0x00007f9ae78c7640] [error] ERROR: Reading request
+[2024-05-29 06:10:39.436232] [0x00007f9ae90ca640] [error] ERROR: Reading request
+[2024-05-29 06:10:39.437743] [0x00007f9ae88c9640] [debug] Reading the Handler of Request
+[2024-05-29 06:10:39.437811] [0x00007f9ae88c9640] [debug] Entire Request: GET /static/Test0.html HTTP/1.1
+Host: localhost
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+[2024-05-29 06:10:39.437855] [0x00007f9ae88c9640] [debug] Processing the Request
+[2024-05-29 06:10:39.437911] [0x00007f9ae88c9640] [debug] Received handler static_handler
+[2024-05-29 06:10:39.438055] [0x00007f9ae88c9640] [trace] [ResponseMetrics] response_code:200 Handler: static_handler Path: /static/Test0.html 
+[2024-05-29 06:10:39.438213] [0x00007f9ae88c9640] [debug] Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 119
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST</title>
+    </head>
+    <body>
+        STUFF
+    </body>
+</html>
+[2024-05-29 06:10:39.439359] [0x00007f9ae90ca640] [warning] Shutting down server

@@ -1,0 +1,9 @@
+# comment at start
+foo "bar";
+server {
+  # nested comment
+  listen   80;
+  server_name foo.com;
+  root /home/ubuntu/sites/foo/;
+}
+# comment at end
